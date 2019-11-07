@@ -13,12 +13,6 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-library(devtools)
-library(roxygen2)
-library(testthat)
-library(knitr)
-
-
 hello <- function() {
   print("Hello, world!")
 }
