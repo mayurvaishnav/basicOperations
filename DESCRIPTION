@@ -1,0 +1,10 @@
+Package: basicOperations
+Type: Package
+Title: Basic Arithmetic Operation
+Version: 0.1.0
+Author: Mayur Vaishnav
+Maintainer: mayurvaishnav366@gamil.com
+Description: It gives the functionality for basic arithmetic operations such as addition, substraction, multiplication, and division.
+License: GNU General Public License v3.0
+Encoding: UTF-8
+LazyData: true
