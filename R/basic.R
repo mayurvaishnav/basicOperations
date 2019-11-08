@@ -6,6 +6,7 @@
 #' @examples
 #' add(1, 1)
 #' add(10, 1)
+#' @export
 add <- function(param1, param2) {
   return(param1 + param2)
 }
@@ -18,6 +19,7 @@ add <- function(param1, param2) {
 #' @examples
 #' sub(1, 1)
 #' sub(10, 1)
+#' @export
 sub <- function(param1, param2) {
   return(param1 - param2)
 }
@@ -30,6 +32,7 @@ sub <- function(param1, param2) {
 #' @examples
 #' mul(1, 1)
 #' mul(10, 1)
+#' @export
 mul <- function(param1, param2) {
   return(param1 * param2)
 }
@@ -42,6 +45,7 @@ mul <- function(param1, param2) {
 #' @examples
 #' div(1, 1)
 #' div(10, 1)
+#' @export
 div <- function(param1, param2) {
   if(param2 == 0){
     return("Parameter 2 cannot be Zero..")
