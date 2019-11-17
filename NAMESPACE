@@ -2,5 +2,10 @@
 
 export(add)
 export(div)
+export(isEqual)
+export(isGreater)
+export(isGreaterOrEqual)
+export(islesser)
+export(islesserOrEqual)
 export(mul)
 export(sub)
